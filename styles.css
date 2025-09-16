@@ -32,8 +32,13 @@ body {
   min-width: 30px;
   width: 15vw;
   max-width: 200px;
+  
+}
 
-  margin-bottom: 30px;
+#iconsDiv {
+
+  display: flex;
+  align-items: center;
   
 }
 
@@ -42,8 +47,6 @@ body {
   min-height: 50px;
   height: 10vh;
   max-height: 200px;
-
-  margin-bottom: 30px;
 
 }
 
