@@ -49,6 +49,11 @@ body {
   max-width: 200px;
 
 }
+#fiverrIcon:hover {
+
+  cursor: pointer;
+
+}
 
 #youtubeIcon {
 
@@ -58,6 +63,11 @@ body {
   
   margin: 0 0 0 10%;
   
+}
+#youtubeIcon:hover {
+
+  cursor: pointer;
+
 }
 
 header {
