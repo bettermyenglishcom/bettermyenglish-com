@@ -44,19 +44,19 @@ body {
 
 #fiverrIcon {
 
-  min-height: 50px;
-  height: 5vh;
-  max-height: 200px;
+  min-width: 50px;
+  width: 10vh;
+  max-width: 200px;
 
 }
 
 #youtubeIcon {
 
-    min-height: 50px;
-    height: 10vh;
-    max-height: 200px;
+  min-width: 50px;
+  width: 10vh;
+  max-width: 200px;
   
-    margin: 0 0 0 10%;
+  margin: 0 0 0 10%;
   
 }
 
