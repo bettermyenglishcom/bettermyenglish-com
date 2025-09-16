@@ -17,15 +17,13 @@ body {
 
   display: flex;
   flex-direction: row;
-  
-}
 
-header {
-  background-color: #3498db;
-  color: white;
-  padding: 20px;
-  border-radius: 8px;
+  min-width: 30px;
+  width: 15vh;
+  max-width: 200px;
+
   margin-bottom: 30px;
+  
 }
 
 #headerLogo {
@@ -36,6 +34,14 @@ header {
 
   margin-bottom: 30px;
   
+}
+
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 20px;
+  border-radius: 8px;
+  margin-bottom: 30px;
 }
 
 header h1 {
