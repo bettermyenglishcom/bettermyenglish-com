@@ -21,17 +21,11 @@ header {
   margin-bottom: 30px;
 }
 
-#headerDiv {
-
-  display: flex;
-  flex-direction: row;
-  
-}
-
 #headerLogo {
 
   min-width: 30px;
-  max-width: 5vw;
+  width: 15vh;
+  max-width: 200px;
   
 }
 
