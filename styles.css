@@ -34,6 +34,16 @@ body {
   
 }
 
+#fiverrIcon {
+
+  min-width: 30px;
+  width: 15vh;
+  max-width: 200px;
+
+  margin-bottom: 30px;
+
+}
+
 #youtubeIcon {
 
   min-width: 30px;
