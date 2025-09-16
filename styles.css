@@ -30,7 +30,7 @@ body {
 #headerLogo {
 
   min-width: 30px;
-  width: 15vw;
+  width: 15vh;
   max-width: 200px;
   
 }
@@ -45,7 +45,7 @@ body {
 #fiverrIcon {
 
   min-height: 50px;
-  height: 10vh;
+  height: 5vh;
   max-height: 200px;
 
 }
@@ -53,7 +53,7 @@ body {
 #youtubeIcon {
 
     min-height: 50px;
-    height: 15vh;
+    height: 10vh;
     max-height: 200px;
   
     margin: 0 0 0 10%;
