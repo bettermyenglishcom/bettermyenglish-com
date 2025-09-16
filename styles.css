@@ -21,10 +21,17 @@ header {
   margin-bottom: 30px;
 }
 
+#headerDiv {
+
+  display: flex;
+  flex-direction: row;
+  
+}
+
 #headerLogo {
 
   min-width: 30px;
-  max-width: 2.5vw;
+  max-width: 5vw;
   
 }
 
@@ -63,4 +70,18 @@ section {
 h2 {
   font-size: 2em;
   color: #3498db;
+}
+
+
+section {
+  animation: fadeIn 2s ease-in-out;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
 }
