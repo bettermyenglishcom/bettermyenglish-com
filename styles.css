@@ -1,16 +1,19 @@
-/* Reset some default styles */
 * {
+  
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  
 }
 
 body {
+  
   font-family: 'Arial', sans-serif;
   background-color: #f0f4f8;
   color: #333;
   text-align: center;
   padding: 50px;
+  
 }
 
 #headerDiv {
@@ -20,14 +23,14 @@ body {
 
   justify-content: space-between;
 
-  padding-bottom: 1vh;
+  padding: 0 5% 2.5% 5%;
 
 }
 
 #headerLogo {
 
   min-width: 30px;
-  width: 15vh;
+  width: 15vw;
   max-width: 200px;
 
   margin-bottom: 30px;
@@ -36,9 +39,9 @@ body {
 
 #fiverrIcon {
 
-  min-width: 30px;
-  width: 15vh;
-  max-width: 200px;
+  min-height: 50px;
+  height: 10vh;
+  max-height: 200px;
 
   margin-bottom: 30px;
 
@@ -46,67 +49,88 @@ body {
 
 #youtubeIcon {
 
-  min-width: 30px;
-  width: 15vh;
-  max-width: 200px;
-
-  margin-bottom: 30px;
+    min-height: 50px;
+    height: 15vh;
+    max-height: 200px;
+  
+    margin: 0 0 0 10%;
   
 }
 
 header {
+  
   background-color: #3498db;
   color: white;
   padding: 20px;
   border-radius: 8px;
   margin-bottom: 30px;
+  
 }
 
 header h1 {
+  
   font-size: 2.5em;
   margin-bottom: 10px;
+  
 }
 
 header p {
+  
   font-size: 1.2em;
+  
 }
 
 main {
+  
   font-size: 1.1em;
+  
 }
 
 footer {
+  
   margin-top: 40px;
   font-size: 0.9em;
   color: #777;
+  
 }
 
 footer p {
+  
   margin-top: 20px;
+  
 }
 
 section {
+  
   background-color: white;
   border-radius: 8px;
   padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   margin: 0 auto;
   max-width: 600px;
+  
 }
 
 h2 {
+  
   font-size: 2em;
   color: #3498db;
+  
 }
 
 
 section {
+  
   animation: fadeIn 2s ease-in-out;
+  
 }
 
+
 @keyframes fadeIn {
+  
   from {
     opacity: 0;
+    
   }
   to {
     opacity: 1;
