@@ -18,6 +18,10 @@ body {
   display: flex;
   flex-direction: row;
 
+}
+
+#headerLogo {
+
   min-width: 30px;
   width: 15vh;
   max-width: 200px;
@@ -26,7 +30,7 @@ body {
   
 }
 
-#headerLogo {
+#youtubeIcon {
 
   min-width: 30px;
   width: 15vh;
