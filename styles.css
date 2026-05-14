@@ -23,7 +23,7 @@ body {
 
   justify-content: space-between;
 
-  padding: 0 5% 2.5% 5%;
+  padding: 0 2.5% 2.5% 5%;
 
 }
 
@@ -44,7 +44,23 @@ body {
 
   display: flex;
   align-items: center;
+  justify-content: center;
   
+}
+
+.socialIcon {
+
+  min-width: 50px;
+  width: 8vh;
+  max-width: 200px;
+
+  margin: 0 10% 0 0;
+
+}
+.socialIcon:hover {
+
+  cursor: pointer;
+
 }
 
 #youtubeIcon {
@@ -52,8 +68,6 @@ body {
   min-width: 50px;
   width: 10vh;
   max-width: 200px;
-  
-  margin: 0 0 0 10%;
   
 }
 #youtubeIcon:hover {
@@ -64,18 +78,18 @@ body {
 
 header {
   
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
   background-color: #3498db;
   color: white;
-  padding: 20px;
   border-radius: 8px;
-  margin-bottom: 30px;
   
 }
 
 header h1 {
   
   font-size: 2.5em;
-  margin-bottom: 10px;
   
 }
 
@@ -83,6 +97,20 @@ header p {
   
   font-size: 1.2em;
   
+}
+
+.navlink {
+
+  width: 50%;
+  height: 100%;
+  padding: 1rem;
+
+}
+.navlink:hover {
+
+  background-color: rgba(255, 255, 255, 0.25);
+  cursor: pointer;
+
 }
 
 main {
@@ -111,7 +139,7 @@ section {
   border-radius: 8px;
   padding: 40px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  margin: 0 auto;
+  margin: 5% auto;
   max-width: 600px;
   
 }
@@ -128,6 +156,40 @@ section {
   
   animation: fadeIn 2s ease-in-out;
   
+}
+
+
+@media (max-aspect-ratio: 1/1) {
+
+  header {
+
+    flex-direction: column;
+
+  }
+
+  .navlink {
+
+    width: 100%;
+    
+  }
+
+  #headerDiv {
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+
+    padding: 0 0 2.5% 0;
+  
+  }
+
+  #iconsDiv {
+
+    margin: 5% 0 5% 0;
+
+  }
+
 }
 
 
