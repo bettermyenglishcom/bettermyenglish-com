@@ -158,6 +158,12 @@ section {
   
 }
 
+.hyperlinked:hover {
+
+  opacity: 0.666;
+  cursor: pointer;
+
+}
 
 @media (max-aspect-ratio: 1/1) {
 
@@ -170,7 +176,7 @@ section {
   .navlink {
 
     width: 100%;
-    
+
   }
 
   #headerDiv {
