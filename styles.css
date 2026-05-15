@@ -33,7 +33,7 @@ body {
   font-family: 'Arial', sans-serif;
   background-color: rgba(50, 47, 57, 1);
   background-image: url(2356123245.png);
-  background-size: cover;
+  background-size: auto;
   background-position: center;
   color: #333;
   text-align: center;
