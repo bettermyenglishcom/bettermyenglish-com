@@ -6,6 +6,12 @@
   
 }
 
+a {
+
+  color: cyan;
+  
+}
+
 button {
 
   width: 80%;
@@ -25,7 +31,7 @@ button {
 body {
   
   font-family: 'Arial', sans-serif;
-  background-color: rgba(200, 191, 231, 1);
+  background-color: rgba(50, 47, 57, 1);
   color: #333;
   text-align: center;
   padding: 50px;
@@ -141,7 +147,7 @@ footer {
   
   margin-top: 40px;
   font-size: 0.9em;
-  color: #777;
+  color: rgba(255, 255, 255, 0.5);;
   
 }
 
