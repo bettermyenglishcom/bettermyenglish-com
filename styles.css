@@ -54,6 +54,7 @@ body {
   min-width: 200px;
   width: 15vh;
   max-width: 200px;
+  border-radius: 10px;
   
 }
 #headerLogo:hover {
