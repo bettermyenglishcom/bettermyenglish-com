@@ -25,7 +25,7 @@ button {
 body {
   
   font-family: 'Arial', sans-serif;
-  background-color: #f0f4f8;
+  background-color: rgba(200, 191, 231, 1);
   color: #333;
   text-align: center;
   padding: 50px;
@@ -45,7 +45,7 @@ body {
 
 #headerLogo {
 
-  min-width: 30px;
+  min-width: 200px;
   width: 15vh;
   max-width: 200px;
   
