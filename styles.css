@@ -302,6 +302,11 @@ section {
   margin: 5%;
 
 }
+#cta_button:hover {
+
+  cursor: pointer;
+  
+}
 
 @media (max-aspect-ratio: 1/1) {
 
