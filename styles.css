@@ -109,6 +109,14 @@ body {
 
 }
 
+.midSocialIcon {
+
+  min-width: 33px;
+  width: 4rem;
+  max-width: 150px;
+
+}
+
 .miniSocialIcon {
 
   min-width: 25px;
@@ -229,6 +237,29 @@ h2 {
 
 }
 
+.h3_heading {
+
+  width: 90%;
+  justify-self: center;
+  padding: 2.5%;
+  color: white;
+  background-color: rgba(52, 152, 219, 0.75);
+  box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+  border-radius: 5px;
+
+}
+
+.h3_subheading {
+
+  margin: 5% 0 0 0;
+
+}
+
+.h3_socialIconGroup {
+
+  margin: 2.5% 0 2.5% 0;
+
+}
 
 section {
   
@@ -278,6 +309,14 @@ section {
   #iconsDiv {
 
     margin: 5% 0 5% 0;
+
+  }
+  
+  .midSocialIcon {
+
+    min-width: 33px;
+    width: 4rem;
+    max-width: 150px;
 
   }
 
