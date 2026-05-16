@@ -211,6 +211,8 @@ main {
 
 footer {
 
+  display: flex;
+
   width: 80%;
 
   justify-self: center;
