@@ -1,3 +1,11 @@
+* {
+  
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+}
+
 a {
 
   color: cyan;
@@ -12,32 +20,15 @@ p {
 
 hr {
 
-  display: flex;
-  flex-direction: column;
-
   margin: 5% 0 5% 0;
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
 
 }
 
 li {
 
-  display: flex;
-  flex-direction: column;
-
   width: 85%;
   list-style-position: inside;
   justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
   font-size: 1.5rem;
 
 }
@@ -59,9 +50,6 @@ button {
 }
 
 body {
-
-  display: flex;
-  flex-direction: column;
   
   font-family: 'Arial', sans-serif;
   background-color: rgba(50, 47, 57, 1);
@@ -69,19 +57,10 @@ body {
   text-align: center;
   margin: 1%;
   text-decoration-skip: space;
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
   
 }
 
 #bodyBackgroundDiv {
-
-  display: flex;
-  flex-direction: column;
 
   left: 0;
   top: 0;
@@ -92,12 +71,6 @@ body {
   background-size: auto;
   background-position: center;
   border-radius: 20px;
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
 
 }
 
@@ -110,10 +83,6 @@ body {
 
   justify-content: space-between;
   justify-self: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
 
   padding: 5%;
 
@@ -136,13 +105,8 @@ body {
 #iconsDiv {
 
   display: flex;
-  flex-direction: row;
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
   align-items: center;
+  justify-content: center;
   
 }
 
@@ -203,10 +167,6 @@ header {
   flex-direction: row;
   width: 80%;
   justify-self: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
   justify-content: space-evenly;
   margin: 0 0 10% 0;
   background-color: rgba(52, 152, 219, 1);
@@ -244,33 +204,16 @@ header p {
 }
 
 main {
-
-  display: flex;
-  flex-direction: column;
   
   font-size: 1.1em;
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
   
 }
 
 footer {
 
-  display: flex;
-  flex-direction: column;
-
   width: 80%;
 
   justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
   
   font-size: 0.9em;
   color: rgba(255, 255, 255, 0.5);
@@ -288,9 +231,6 @@ footer p {
 section {
 
   width: 90%;
-
-  display: flex;
-  flex-direction: column;
   
   background-color: white;
   border-radius: 10px;
@@ -298,14 +238,6 @@ section {
   box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
   margin: 5% auto;
   max-width: 600px;
-  justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
-  
-  animation: fadeIn 2s ease-in-out;
   
 }
 
@@ -329,16 +261,8 @@ h3 {
 
 .h3_heading {
 
-  display: flex;
-  flex-direction: column;
-
   width: 90%;
   justify-self: center;
-  justify-content: center;
-  justify-items: center;
-  align-self: center;
-  align-content: center;
-  align-items: center;
   padding: 5%;
   font-size: 2.5rem;
   color: white;
@@ -356,9 +280,14 @@ h3 {
 
 .h3_socialIconGroup {
 
-  width: 100%;
   margin: 2.5% 0 2.5% 0;
 
+}
+
+section {
+  
+  animation: fadeIn 2s ease-in-out;
+  
 }
 
 .hyperlinked:hover {
@@ -393,12 +322,8 @@ h3 {
     display: flex;
     flex-direction: column;
 
-    justify-self: center;
     justify-content: center;
-    justify-items: center;
-    align-self: center;
-    align-content: center;
-    align-items: center;
+    justify-self: center;
 
     padding: 5%;
   
