@@ -30,7 +30,7 @@ function goTo() {
             break;
 
         case("6"):
-            window.open("https://www.instagram.com/bettermyenglishcom/");
+            window.open("https://t.me/bettermyenglishcom/");
             break;
 
     }
