@@ -22,7 +22,7 @@ function goTo() {
             break;
         
         case ("4"):
-            window.open("https://discord.gg/NnzXaCHYk");
+            window.open("https://discord.gg/M9vSygErn");
             break;
         
         case ("5"):
