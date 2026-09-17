@@ -22,7 +22,7 @@ function goTo() {
             break;
         
         case ("4"):
-            window.open("https://discord.gg/M9vSygErn");
+            window.open("https://discord.gg/NnzXaCHYk");
             break;
         
         case ("5"):
@@ -31,6 +31,10 @@ function goTo() {
 
         case("6"):
             window.open("https://t.me/bettermyenglishcom/");
+            break;
+        
+        case("7"):
+            window.open("https://betrenglish.org/");
             break;
 
     }
