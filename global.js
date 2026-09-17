@@ -18,7 +18,7 @@ function goTo() {
             break;
 
         case("3"):
-            window.open("https://t.me/bettermyenglishcom/");
+            window.open("https://t.me/bettermyenglishorg/");
             break;
         
         case("4"):
