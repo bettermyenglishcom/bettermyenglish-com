@@ -6,34 +6,22 @@ function goTo() {
     switch (this.dataset.redirectLink) {
 
         case ("0"):
-            window.location.href = "https://bettermyenglish.com/index.html";
+            window.location.href = "https://bettermyenglish.org/index.html";
             break;
         
         case ("1"):
-            window.location.href = "https://bettermyenglish.com/about.html";
-            break;
-        
-        case ("2"):
-            window.location.href = "https://bettermyenglish.com/resources.html";
-            break;
-        
-        case ("3"):
-            window.open("https://youtube.com/@bettermyenglish/?sub_confirmation=1");
-            break;
-        
-        case ("4"):
             window.open("https://discord.gg/NnzXaCHYk");
             break;
         
-        case ("5"):
+        case ("2"):
             window.open("https://wa.me/message/TLRNWRKLTA7SM1");
             break;
 
-        case("6"):
+        case("3"):
             window.open("https://t.me/bettermyenglishcom/");
             break;
         
-        case("7"):
+        case("4"):
             window.open("https://betrenglish.org/");
             break;
 
