@@ -49,6 +49,20 @@ button {
 
 }
 
+#betr_button {
+
+  width: fit-content;
+  padding: 2%;
+  font-size: 1.5rem;
+  color: #FFFFFF;
+
+}  #betr_button:hover {
+  
+  cursor: pointer;
+  opacity: 0.666;
+
+}
+
 body {
   
   font-family: 'Arial', sans-serif;
